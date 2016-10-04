@@ -1,0 +1,58 @@
+#body
+    {
+        /*background-image:url('images/star.jpg');*/
+        position:absolute;
+        left:380px;
+        top:380px;
+
+  }
+#border
+    {
+        border-style:inset;
+        text-align:center; 
+    }
+#shape 
+    {
+        position:absolute;
+        left:100px;
+        top:100px;
+    }
+#in 
+    {
+        position:absolute;
+        border-style: solid;
+        border: 3px;
+        border-radius:50px;
+        width:100px;
+        height:100px;
+        background-color:white;
+        left:490px;
+        top:50px;
+        z-index:1;
+    }
+#out 
+    {
+        left:440px;
+        position:absolute;
+        border-style: solid;
+        border: 3px;
+        border-radius:100px;
+        width:200px;
+        height:200px;
+        background-color:black;
+    }
+#num8 
+    {
+        position:absolute;
+        left:525px;
+        top:62px;
+        font-size:340%;
+        z-index:2;
+    }
+#res 
+    {
+        position:absolute;
+        left:48px;
+        top:332px;
+        font-size:250%;
+    }
