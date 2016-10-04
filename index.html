@@ -23,29 +23,32 @@
   
 </div>
 
-
+<div id="body">
 
 <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 
-<style id="jsbin-css">
+   
+    <style id="javascript">
 #answer {
     display: none;
 }
-</style>
-</head>
-<div id="body">
+    </style>
+
+
+
+
 <form id="magic8" method="post">
 Ask a question: <input type="text" name="question" id="question" size="70" />
 
   <div style="display:none" id="answer"></div>
 </form>
 
-<script id="jsbin-javascript">
+<script id="javascript">
 $(document).ready(function() {
-
+    
     $('form#magic8').submit(function(e) {
       e.preventDefault();  
-      var answers = ['Yes', 'No','Uhhh!?', 'Maybe', 'Who knows!'];
+      var answers = ['Yes', 'Yea sure', 'No', 'No way!', 'Uhhh!?', 'Maybe', 'Who knows!'];
         var random = answers[Math.floor(Math.random() * answers.length)];
         $('div#answer').text(random).fadeIn('fast');
     });
